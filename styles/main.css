@@ -6,5 +6,35 @@
 }
 
 header {
+  display: flex;
   font-family: pokemonFont;
+  font-size: 32px;
+  justify-content: center;
+  background-color: red;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: lightblue;
+}
+
+main {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  flex-shrink: 0;
 }
