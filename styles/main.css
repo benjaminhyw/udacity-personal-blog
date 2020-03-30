@@ -1,1 +1,10 @@
 @import "./index.css";
+
+@font-face {
+  font-family: pokemonFont;
+  src: url(./fonts/POKEMONGB-RAEO.TTF);
+}
+
+header {
+  font-family: pokemonFont;
+}
