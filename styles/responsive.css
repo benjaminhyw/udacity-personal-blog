@@ -11,7 +11,7 @@
   }
 
   .header-title {
-    font-size: 42px;
+    font-size: 40px;
   }
 
   .nav-links {
@@ -21,6 +21,14 @@
   .blog-card {
     width: 800px;
     height: 750px;
+  }
+
+  .blog-card-title {
+    font-size: 48px;
+  }
+
+  .blog-card-subheader {
+    font-size: 36px;
   }
 
   .blog-card-image-wrapper {
@@ -35,8 +43,17 @@
 
   .dbz,
   .overcooked {
-    height: 500px;
+    height: 400px;
     width: 700px;
+  }
+
+  .read-more-link {
+    font-size: 32px;
+  }
+
+  footer {
+    height: 45px;
+    font-size: 30px;
   }
 }
 
@@ -54,6 +71,15 @@
     height: 500px;
   }
 
+  .blog-card-title {
+    font-size: 36px;
+  }
+
+  .blog-card-subheader {
+    margin: 0;
+    font-size: 30px;
+  }
+
   .pokemon-sprite {
     height: 300px;
     width: 300px;
@@ -63,6 +89,15 @@
   .overcooked {
     height: 300px;
     width: 500px;
+  }
+
+  .read-more-link {
+    font-size: 22px;
+  }
+
+  footer {
+    height: 35px;
+    font-size: 24px;
   }
 }
 
@@ -109,5 +144,9 @@
   .overcooked {
     height: 100px;
     width: 300px;
+  }
+
+  .read-more-link {
+    font-size: 18px;
   }
 }
