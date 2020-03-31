@@ -6,13 +6,12 @@
 
   .blog-card {
     width: 350px;
-    height: 350px;
+    height: 325px;
   }
 
   .blog-card-image-wrapper {
-    background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   .pokemon-sprite {
