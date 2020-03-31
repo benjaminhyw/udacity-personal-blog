@@ -1,0 +1,78 @@
+@font-face {
+  font-family: pokemonFont;
+  src: url(./fonts/POKEMONGB-RAEO.TTF);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-family: pokemonFont;
+  font-size: 32px;
+  justify-content: space-between;
+  background-color: red;
+  padding: 10px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: lightblue;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  overflow-y: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 25px);
+}
+
+footer {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  flex-shrink: 0;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  background-color: lightcoral;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 600px;
+  height: 500px;
+  border-radius: 25px;
+}
+
+.blog-card-title {
+  margin: 0;
+  text-align: center;
+}
+
+.blog-card-image-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.read-more-link {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.pokemon-sprite {
+  height: 300px;
+  width: 300px;
+}
