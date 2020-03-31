@@ -1,5 +1,22 @@
 .blog-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: lightcoral;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
   width: 600px;
   height: 600px;
+  border-radius: 25px;
+}
+
+.blog-card-image-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.pokemon-sprite {
+  height: 300px;
+  width: 300px;
 }
