@@ -51,6 +51,22 @@
     font-size: 32px;
   }
 
+  .about-me-heading {
+    font-size: 80px;
+    margin-bottom: 0;
+  }
+
+  .about-me-body {
+    margin: 0 50px 0 50px;
+    font-size: 48px;
+  }
+
+  .social-media-icon {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+  }
+
   footer {
     height: 45px;
     font-size: 30px;
@@ -93,6 +109,22 @@
 
   .read-more-link {
     font-size: 22px;
+  }
+
+  .about-me-heading {
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+
+  .about-me-body {
+    margin: 0 35px 0 35px;
+    font-size: 36px;
+  }
+
+  .social-media-icon {
+    margin: 15px;
+    width: 60px;
+    height: 60px;
   }
 
   footer {
@@ -148,5 +180,21 @@
 
   .read-more-link {
     font-size: 18px;
+  }
+
+  .about-me-heading {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .about-me-body {
+    margin: 0 20px 0 20px;
+    font-size: 24px;
+  }
+
+  .social-media-icon {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
   }
 }

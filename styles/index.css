@@ -27,6 +27,11 @@ main {
   overflow-y: auto;
 }
 
+.about-me-main {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -75,4 +80,26 @@ footer {
 .pokemon-sprite {
   height: 300px;
   width: 300px;
+}
+
+.about-me-heading {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.about-me-body {
+  margin: 0 150px 0 150px;
+  font-size: 36px;
+}
+
+.social-media-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.social-media-icon {
+  margin: 0 15px 0 15px;
+  width: 60px;
+  height: 60px;
 }
