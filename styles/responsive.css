@@ -181,4 +181,20 @@
   .read-more-link {
     font-size: 18px;
   }
+
+  .about-me-heading {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .about-me-body {
+    margin: 0 20px 0 20px;
+    font-size: 24px;
+  }
+
+  .social-media-icon {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+  }
 }
