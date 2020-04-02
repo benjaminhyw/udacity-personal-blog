@@ -47,16 +47,18 @@
     width: 700px;
   }
 
-  .read-more-link {
-    font-size: 32px;
+  .read-more-button {
+    font-size: 45px;
   }
 
-  .about-me-heading {
+  .about-me-heading,
+  .blog-post-heading {
     font-size: 80px;
     margin-bottom: 0;
   }
 
-  .about-me-body {
+  .about-me-body,
+  .blog-post-body {
     margin: 0 50px 0 50px;
     font-size: 48px;
   }
@@ -65,6 +67,11 @@
     margin: 20px;
     width: 80px;
     height: 80px;
+  }
+
+  #child-grid-container {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 150px 150px 150px;
   }
 
   footer {
@@ -107,16 +114,18 @@
     width: 500px;
   }
 
-  .read-more-link {
-    font-size: 22px;
+  .read-more-button {
+    font-size: 30px;
   }
 
-  .about-me-heading {
+  .about-me-heading,
+  .blog-post-heading {
     font-size: 60px;
     margin-bottom: 0;
   }
 
-  .about-me-body {
+  .about-me-body,
+  .blog-post-body {
     margin: 0 35px 0 35px;
     font-size: 36px;
   }
@@ -125,6 +134,11 @@
     margin: 15px;
     width: 60px;
     height: 60px;
+  }
+
+  #child-grid-container {
+    grid-template-columns: 225px 225px;
+    grid-template-rows: 125px 125px 125px;
   }
 
   footer {
@@ -178,16 +192,18 @@
     width: 300px;
   }
 
-  .read-more-link {
+  .read-more-button-container {
     font-size: 18px;
   }
 
-  .about-me-heading {
+  .about-me-heading,
+  .blog-post-heading {
     font-size: 24px;
     margin-bottom: 0;
   }
 
-  .about-me-body {
+  .about-me-body,
+  .blog-post-body {
     margin: 0 20px 0 20px;
     font-size: 24px;
   }
@@ -196,5 +212,14 @@
     margin: 5px;
     width: 40px;
     height: 40px;
+  }
+
+  .read-more-button {
+    font-size: 15px;
+  }
+
+  #child-grid-container {
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
   }
 }

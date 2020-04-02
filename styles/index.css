@@ -25,9 +25,11 @@ main {
   align-items: center;
   flex: 1;
   overflow-y: auto;
+  margin: 5px;
 }
 
-.about-me-main {
+.about-me-main,
+.blog-post-main {
   display: flex;
   flex-direction: column;
 }
@@ -60,6 +62,10 @@ footer {
   border-radius: 25px;
 }
 
+.blog-card-content p {
+  margin: 2px 0 2px 0;
+}
+
 .blog-card-title {
   margin: 0;
   text-align: center;
@@ -70,36 +76,18 @@ footer {
   flex-direction: row;
 }
 
-.read-more-link {
+.read-more-button-container {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   margin-top: 15px;
 }
 
+.read-more-button {
+  font-size: 20px;
+}
+
 .pokemon-sprite {
   height: 300px;
   width: 300px;
-}
-
-.about-me-heading {
-  font-size: 60px;
-  margin-bottom: 0;
-}
-
-.about-me-body {
-  margin: 0 150px 0 150px;
-  font-size: 36px;
-}
-
-.social-media-section {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.social-media-icon {
-  margin: 0 15px 0 15px;
-  width: 60px;
-  height: 60px;
 }
