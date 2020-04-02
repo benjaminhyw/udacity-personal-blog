@@ -128,8 +128,8 @@
   }
 
   #child-grid-container {
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 225px 225px;
+    grid-template-rows: 125px 125px 125px;
   }
 
   footer {
@@ -205,5 +205,10 @@
 
   .read-more-button {
     font-size: 15px;
+  }
+
+  #child-grid-container {
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
   }
 }
