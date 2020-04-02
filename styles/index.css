@@ -25,9 +25,11 @@ main {
   align-items: center;
   flex: 1;
   overflow-y: auto;
+  margin: 5px;
 }
 
-.about-me-main {
+.about-me-main,
+.blog-post-main {
   display: flex;
   flex-direction: column;
 }
