@@ -67,6 +67,11 @@
     height: 80px;
   }
 
+  #child-grid-container {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 150px 150px 150px;
+  }
+
   footer {
     height: 45px;
     font-size: 30px;
