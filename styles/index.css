@@ -60,6 +60,10 @@ footer {
   border-radius: 25px;
 }
 
+.blog-card-content p {
+  margin: 2px 0 2px 0;
+}
+
 .blog-card-title {
   margin: 0;
   text-align: center;
