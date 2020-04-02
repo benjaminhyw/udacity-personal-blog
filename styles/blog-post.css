@@ -1,3 +1,8 @@
+.blog-post-heading {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
 .parent-grid {
   display: grid;
   grid-template-columns: 35vw 35vw;
