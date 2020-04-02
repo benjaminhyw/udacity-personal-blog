@@ -22,7 +22,6 @@
 
 #child-grid-container {
   display: grid;
-
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 100px 100px;
   grid-gap: 15px;
@@ -31,7 +30,6 @@
 }
 
 #parent-grid-item-2 {
-  background-color: light;
   grid-area: bottomLeft;
   background-color: khaki;
 }
