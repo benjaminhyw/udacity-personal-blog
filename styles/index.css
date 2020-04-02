@@ -70,11 +70,15 @@ footer {
   flex-direction: row;
 }
 
-.read-more-link {
+.read-more-button-container {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   margin-top: 15px;
+}
+
+.read-more-button {
+  font-size: 20px;
 }
 
 .pokemon-sprite {

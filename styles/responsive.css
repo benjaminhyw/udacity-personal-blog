@@ -47,8 +47,8 @@
     width: 700px;
   }
 
-  .read-more-link {
-    font-size: 32px;
+  .read-more-button {
+    font-size: 45px;
   }
 
   .about-me-heading {
@@ -107,8 +107,8 @@
     width: 500px;
   }
 
-  .read-more-link {
-    font-size: 22px;
+  .read-more-button {
+    font-size: 30px;
   }
 
   .about-me-heading {
@@ -178,7 +178,7 @@
     width: 300px;
   }
 
-  .read-more-link {
+  .read-more-button-container {
     font-size: 18px;
   }
 
@@ -196,5 +196,9 @@
     margin: 5px;
     width: 40px;
     height: 40px;
+  }
+
+  .read-more-button {
+    font-size: 15px;
   }
 }
