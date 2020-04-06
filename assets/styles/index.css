@@ -1,6 +1,6 @@
 @font-face {
   font-family: pokemonFont;
-  src: url(./fonts/POKEMONGB-RAEO.TTF);
+  src: url(../fonts/POKEMONGB-RAEO.TTF);
 }
 
 header {
@@ -26,6 +26,14 @@ main {
   flex: 1;
   overflow-y: auto;
   margin: 5px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
 }
 
 .about-me-main,

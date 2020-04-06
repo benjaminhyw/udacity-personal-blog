@@ -51,7 +51,7 @@
     font-size: 45px;
   }
 
-  .about-me-heading,
+  .about-me-name,
   .blog-post-heading {
     font-size: 80px;
     margin-bottom: 0;
@@ -72,6 +72,15 @@
   #child-grid-container {
     grid-template-columns: 300px 300px;
     grid-template-rows: 150px 150px 150px;
+  }
+
+  .mario-kart-gif {
+    width: 145px;
+    height: 145px;
+  }
+
+  .parent-grid-item {
+    font-size: 42px;
   }
 
   footer {
@@ -118,7 +127,7 @@
     font-size: 30px;
   }
 
-  .about-me-heading,
+  .about-me-name,
   .blog-post-heading {
     font-size: 60px;
     margin-bottom: 0;
@@ -141,13 +150,22 @@
     grid-template-rows: 125px 125px 125px;
   }
 
+  .mario-kart-gif {
+    width: 115px;
+    height: 115px;
+  }
+
+  .parent-grid-item {
+    font-size: 28px;
+  }
+
   footer {
     height: 35px;
     font-size: 24px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   main {
     display: flex;
     flex-direction: column;
@@ -196,9 +214,13 @@
     font-size: 18px;
   }
 
-  .about-me-heading,
   .blog-post-heading {
     font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .about-me-name {
+    font-size: 30px;
     margin-bottom: 0;
   }
 
@@ -220,6 +242,15 @@
 
   #child-grid-container {
     grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px;
+  }
+
+  .mario-kart-gif {
+    width: 80px;
+    height: 80px;
+  }
+
+  .parent-grid-item {
+    font-size: 16px;
   }
 }

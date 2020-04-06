@@ -15,6 +15,8 @@
 
 .parent-grid-item {
   border: 2px solid black;
+  padding: 10px;
+  font-size: 38px;
 }
 
 #parent-grid-item-1 {
@@ -45,5 +47,13 @@
 }
 
 .child-grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid darkslategray;
+}
+
+.mario-kart-gif {
+  width: 100px;
+  height: 100px;
 }
