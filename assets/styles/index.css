@@ -28,6 +28,14 @@ main {
   margin: 5px;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
 .about-me-main,
 .blog-post-main {
   display: flex;
